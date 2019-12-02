@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/segur/UnityScenePractice/Title.unity
+    guid: 62e6ec0844bc71b44bd5ee717017d8b0
+  - enabled: 1
+    path: Assets/segur/UnityScenePractice/Main.unity
+    guid: 5d5678d3f415b254385ee14139ce9710
+  - enabled: 1
+    path: Assets/segur/UnityScenePractice/Common.unity
+    guid: 1d881ede55eeef8479894f9efb4308e1
   m_configObjects: {}
