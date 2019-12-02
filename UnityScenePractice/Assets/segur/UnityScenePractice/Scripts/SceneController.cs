@@ -7,7 +7,6 @@ public static class SceneController
     public static bool AlreadyLoadScene(string name)
     {
         return SceneManager.GetAllScenes()
-            .Count(scene => scene.name == name)
-            > 0;
+            .Any(scene => scene.name == name);
     }
 }
